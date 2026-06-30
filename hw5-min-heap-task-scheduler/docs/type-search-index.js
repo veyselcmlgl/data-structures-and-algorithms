@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"Main","l":"Main"},{"p":"MyPriorityQueue","l":"MinHeap"},{"p":"MyPriorityQueue","l":"MyPriorityQueue"},{"p":"MyTaskManager","l":"MyTask"},{"p":"MyTaskManager","l":"MyUser"},{"p":"MyTaskManager","l":"TaskManager"}]
