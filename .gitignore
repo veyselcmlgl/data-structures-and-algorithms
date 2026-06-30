@@ -1,0 +1,10 @@
+# Java build artifacts
+build/
+sources.txt
+*.class
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+*.iml
