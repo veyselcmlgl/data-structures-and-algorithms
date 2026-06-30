@@ -1,0 +1,56 @@
+create planetSystem Sirius 7000 105000 20 0.06
+create planetSystem Sol 5778 101325 0 0.05
+create planetSystem Alpha 6000 100000 0 0.03
+addPlanet Mercury Sol 340 87000 0 0.01
+addSatellite MercuryMoon Mercury 100 20000 0 0.001
+addPlanet Venus Mercury 460 92000 10 0.02
+addPlanet Veysel Mercury 460 9200 10 0.01
+addSatellite VenusMoon Venus 200 25000 0 0.002
+addPlanet Earth Venus 288 101325 40 0.03
+addSatellite Luna Earth 220 50000 0 0.005
+addSatellite ISS Earth 295 101000 0 0.002
+addPlanet Mars Earth 210 60000 20 0.02
+addSatellite Phobos Mars 150 20000 0 0.001
+addSatellite Deimos Mars 170 25000 0 0.0015
+addPlanet Jupiter Mars 134 130000 10 0.04
+addSatellite Io Jupiter 102 90000 0 0.003
+addSatellite Europa Jupiter 110 95000 0 0.004
+addPlanet Saturn Jupiter 97 120000 0 0.03
+addSatellite Titan Saturn 94 85000 0 0.002
+addSatellite Rhea Saturn 86 80000 0 0.0018
+addPlanet Uranus Saturn 76 80000 0 0.02
+addSatellite Titania Uranus 70 65000 0 0.0016
+addSatellite Oberon Uranus 68 63000 0 0.0014
+addPlanet Neptune Uranus 72 75000 0 0.018
+addSatellite Triton Neptune 38 40000 0 0.0012
+addPlanet Pluto Neptune 50 40000 0 0.015
+addSatellite Charon Pluto 53 30000 0 0.001
+addSatellite StarMoon Sol 100 50000 0 0.001
+addPlanet MiniPlanet Luna 80 30000 0 0.001
+addPlanet BadPlanet Sol -50 90000 0 0.01
+addSatellite BadMoon Earth 100 -30000 0 0.01
+addPlanet HumidityError Sol 100 90000 150 0.01
+addPlanet Mercury2 Sol 300 80000 0 002
+addPlanet Mercury Sol 300 80000 0 0.02
+addSatellite Luna Earth 250 60000 0 0.006
+addPlanet Kepler NonExistentStar 200 70000 0 0.01
+addSatellite Ganymede NonExistentPlanet 90 40000 0 0.002
+findRadiationAnomalies 0.03
+findRadiationAnomalies 0.01
+findRadiationAnomalies 0.005
+getPathTo Sol
+getPathTo Mercury
+getPathTo Earth
+getPathTo Luna
+getPathTo Jupiter
+getPathTo Titan
+getPathTo Pluto
+getPathTo Charon
+getPathTo Ceres
+printMissionReport
+printMissionReport Sol
+printMissionReport Earth
+printMissionReport Luna
+printMissionReport Jupiter
+printMissionReport NonExistentPlanet
+exit
